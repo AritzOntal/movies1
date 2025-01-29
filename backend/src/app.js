@@ -51,7 +51,6 @@ app.delete('/movies/:movieId', async (req, res) => {
     res.status(200).json({});
 });
 
-
 app.listen(8081, () => {
     console.log('El backend ha iniciado en el puerto 8081');
 });
